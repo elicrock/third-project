@@ -6,3 +6,23 @@ header {
   padding: 45px 0 40px 0;
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
 }
+
+@media screen and (max-width: 1024px) {
+  .header {
+    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
+    padding-left: calc((100vw - 320px)/(1024 - 320) * (27 - 0) + 27px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-top: calc((100vw - 320px)/(768 - 320) * (45 - 28) + 28px);
+    padding-bottom: calc((100vw - 320px)/(768 - 320) * (40 - 31.6) + 31.6px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 28px 0 31.6px 27px;
+  }
+}
