@@ -26,7 +26,6 @@
   left: 50%;
   margin-top: -1px;
   margin-left: -11px;
-  transition: background 0.3s;
 }
 
 .profile__add-button::after {
@@ -40,7 +39,6 @@
   margin-top: -1px;
   margin-left: -11px;
   transform: rotate(90deg);
-  transition: background 0.3s;
 }
 
 @media screen and (max-width: 768px) {
