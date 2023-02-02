@@ -10,13 +10,14 @@
     /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
     width: calc((100vw - 320px)/(768 - 320) * (142 - 103.74) + 103.74px);
     height: calc((100vw - 320px)/(768 - 320) * (33 - 24.4) + 24.4px);
+    margin-left: calc((100vw - 320px)/(768 - 320) * (0 - 27) + 27px);
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__logo {
-    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
     width: 103.74px;
     height: 24.4px;
+    margin-left: 27px;
   }
 }

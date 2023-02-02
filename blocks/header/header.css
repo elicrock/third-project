@@ -10,7 +10,7 @@ header {
 @media screen and (max-width: 1024px) {
   .header {
     /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
-    padding-left: calc((100vw - 320px)/(1024 - 320) * (27 - 0) + 27px);
+    max-width: calc((100vw - 320px)/(1024 - 320) * (880 - 320) + 320px);
   }
 }
 
@@ -23,6 +23,7 @@ header {
 
 @media screen and (max-width: 320px) {
   .header {
-    padding: 28px 0 31.6px 27px;
+    max-width: 320px;
+    padding: 28px 0 31.6px 0;
   }
 }
